@@ -1,0 +1,9 @@
+- id: sort-package-json
+  name: Sort package.json
+  description: Automatically sorts package.json keys in a consistent order
+  entry: sort-package-json
+  language: node
+  files: ^package\.json$
+  pass_filenames: false
+  require_serial: true
+  types: [json]
